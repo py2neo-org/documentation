@@ -1,15 +1,12 @@
 ---
+id: overview
+title: Overview
 sidebar_position: 1
+slug: /overview
 ---
+import OverviewDiagram from '../../src/components/overview-diagram';
 
-import Mermaid from '@theme/Mermaid'
-
-
-<Mermaid chart={`
-  graph TB
-    CG-->|abstracts|GQL("GraphQL")
-    `}/>
-
+<OverviewDiagram />
 
 # Tutorial Intro
 
