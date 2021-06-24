@@ -3,32 +3,38 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'py2neo',
+  title: 'Py2neo',
   tagline: 'Where python meets Neo4j',
   url: 'https://py2neo.org',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/py2neo.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'py2neo-org', // Usually your GitHub org/user name.
+  projectName: 'py2neo', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'py2neo',
+      title: 'Py2neo',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Py2neo',
         src: 'img/py2neo.svg',
       },
       items: [
         {
           type: 'doc',
-          docId: 'intro',
+          docId: 'about/overview',
+          position: 'left',
+          label: 'About',
+        },
+        {
+          type: 'doc',
+          docId: 'projects/py2neo/py2neo',
           position: 'left',
           label: 'Projects',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        /** {to: '/blog', label: 'Blog', position: 'left'},*/
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/py2neo-org/py2neo',
           label: 'GitHub',
           position: 'right',
         },
@@ -38,46 +44,74 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Quickstart Guides',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'Py2neo',
+              to: '/docs/py2neo',
+            },
+            {
+              label: 'iPy2neo',
+              to: '/docs/ipy2neo/quickstart',
+            },
+            {
+              label: 'Graphio',
+              to: '/docs/graphio/quickstart',
+            },
+            {
+              label: 'Grolt',
+              to: '/docs/grolt/quickstart',
+            },
+            {
+              label: 'Proxy2neo',
+              to: '/docs/proxy2neo/quickstart',
             },
           ],
         },
         {
+          title: 'Full Documentation',
+          items: [
+            {
+              label: 'Py2neo',
+              to: 'https://docs.py2neo.org/py2neo',
+            },
+            {
+              label: 'iPy2neo',
+              to: 'https://docs.py2neo.org/ipy2neo',
+            },
+            {
+              label: 'Graphio',
+              to: 'https://docs.py2neo.org/graphio',
+            },
+            {
+              label: 'Grolt',
+              to: 'https://docs.py2neo.org/grolt',
+            },
+            {
+              label: 'Proxy2neo',
+              to: 'https://docs.py2neo.org/proxy2neo',
+            },
+          ],
+        },
+         {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'LinkedIn',
+              to: 'https://linkedin.com',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: '/blog',
+              href: 'https://twitter.com/py2neo',
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/py2neo-org',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Py2neo. Built with Docusaurus.`,
     },
     prism: {
       theme: lightCodeTheme,

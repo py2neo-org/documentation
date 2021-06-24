@@ -5,7 +5,7 @@ import styles from './HomepageFeatures.module.css';
 const FeatureList = [
   {
     title: 'py2neo',
-    link: 'https://py2neo.org/2021.1/',
+    link: '/docs/py2neo',
     Svg: require('../../static/img/py2neo_200.svg').default,
     description: (
       <>
@@ -15,45 +15,51 @@ const FeatureList = [
   },
   {
     title: 'ipy2neo',
-    link: 'https://test.com',
+    link: '/docs/ipy2neo',
     Svg: require('../../static/img/py2neo_200.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        iPy2neo is an interactive console for py2neo that allows much of its functionality to be accessed from outside of a Python application. This tool includes an interactive console that can be used for running Cypher queries and facilities for managing auth files and has multi-database support. Currently iPy2neo is part of the main Py2neo library but this is on track to becoming a separate project.
       </>
     ),
   },
   {
     title: 'grolt',
-    link: 'https://test.com',
+    link: '/docs/grolt',
     Svg: require('../../static/img/py2neo_200.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Grolt is an interactive Docker-based tool for running Neo4j servers and clusters in development. You will need an appropriate Neo4j licence to use Grolt.
       </>
     ),
   },
   {
     title: 'proxy2neo',
-    link: 'https://test.com',
+    link: '/docs/proxy2neo',
     Svg: require('../../static/img/py2neo_200.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Proxy2neo is a proxy server for Py2neo. Like iPy2neo this is currently part of the main Py2neo library but there are plans to separate this into a stand-alone project.
       </>
     ),
   },
   {
     title: 'graphio',
-    link: 'https://test.com',
+    link: '/docs/graphio',
     Svg: require('../../static/img/py2neo_200.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Graphio is a Python library for bulk loading data to Neo4j. Graphio collects multiple sets of nodes and relationships and loads them to Neo4j. A common example is parsing a set of Excel files to create a Neo4j prototype. Graphio only loads data, it is not meant for querying Neo4j and returning data.
+      </>
+    ),
+  },
+  {
+    title: 'Community Projects',
+    link: '/docs/community/projects',
+    Svg: require('../../static/img/py2neo_200.svg').default,
+    description: (
+      <>
+        A curated list of projects in the wild that are in some way related to Python and Neo4j. 
       </>
     ),
   },
