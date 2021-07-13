@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -14,8 +12,8 @@
    height="903.19092"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.3.1 r9886"
-   sodipodi:docname="py2neo.svg"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
+   sodipodi:docname="py2neo-logo.svg"
    inkscape:export-filename="/home/elgin/Desktop/py2neo3.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
@@ -163,16 +161,17 @@
      inkscape:current-layer="layer1"
      showgrid="true"
      showguides="false"
-     inkscape:window-width="1680"
-     inkscape:window-height="1000"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-width="1851"
+     inkscape:window-height="1016"
+     inkscape:window-x="69"
+     inkscape:window-y="27"
      inkscape:window-maximized="1"
      inkscape:object-paths="false"
      fit-margin-top="100"
      fit-margin-right="100"
      fit-margin-bottom="100"
-     fit-margin-left="100">
+     fit-margin-left="100"
+     inkscape:document-rotation="0">
     <inkscape:grid
        type="xygrid"
        id="grid3072"
@@ -180,8 +179,10 @@
        visible="true"
        enabled="true"
        snapvisiblegridlinesonly="true"
-       originx="52.5px"
-       originy="-97.499975px" />
+       originx="52.5"
+       originy="-97.499975"
+       spacingx="1"
+       spacingy="1" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -191,7 +192,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -200,14 +201,6 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(52.5,-51.671253)">
-    <rect
-       style="fill:#111111;fill-opacity:1;stroke:none"
-       id="rect3012"
-       width="800"
-       height="800"
-       x="-2.2233112e-14"
-       y="102.36214"
-       ry="50.000008" />
     <image
        y="102.36218"
        x="0"

@@ -13,7 +13,7 @@ module.exports = {
   organizationName: 'py2neo-org', // Usually your GitHub org/user name.
   projectName: 'py2neo', // Usually your repo name.
   themeConfig: {
-    navbar: {
+      navbar: {
       title: 'Py2neo',
       logo: {
         alt: 'Py2neo',
@@ -28,7 +28,7 @@ module.exports = {
         },
         {
           type: 'doc',
-          docId: 'projects/py2neo/py2neo',
+          docId: 'projects/py2neo',
           position: 'left',
           label: 'Projects',
         },
@@ -52,19 +52,19 @@ module.exports = {
             },
             {
               label: 'iPy2neo',
-              to: '/docs/ipy2neo/quickstart',
+              to: '/docs/ipy2neo',
             },
             {
               label: 'Graphio',
-              to: '/docs/graphio/quickstart',
+              to: '/docs/graphio',
             },
             {
               label: 'Grolt',
-              to: '/docs/grolt/quickstart',
+              to: '/docs/grolt',
             },
             {
               label: 'Proxy2neo',
-              to: '/docs/proxy2neo/quickstart',
+              to: '/docs/proxy2neo',
             },
           ],
         },
