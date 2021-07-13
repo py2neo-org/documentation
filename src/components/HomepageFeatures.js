@@ -9,7 +9,7 @@ const FeatureList = [
     Svg: require('../../static/img/py2neo_200.svg').default,
     description: (
       <>
-        Py2neo is a client library and toolkit for working with Neo4j from within Python applications and from the command line. The library supports both Bolt and HTTP and provides a high level API, an OGM, admin tools, an interactive console, a Cypher lexer for Pygments, and many other bells and whistles.
+        Py2neo is a client library and toolkit for working with Neo4j from within Python applications and from the command line.
       </>
     ),
   },
@@ -19,7 +19,7 @@ const FeatureList = [
     Svg: require('../../static/img/py2neo_200.svg').default,
     description: (
       <>
-        iPy2neo is an interactive console for py2neo that allows much of its functionality to be accessed from outside of a Python application. This tool includes an interactive console that can be used for running Cypher queries and facilities for managing auth files and has multi-database support. Currently iPy2neo is part of the main Py2neo library but this is on track to becoming a separate project.
+        iPy2neo is an interactive console for py2neo that allows much of its functionality to be accessed from outside of a Python application. 
       </>
     ),
   },
@@ -49,12 +49,12 @@ const FeatureList = [
     Svg: require('../../static/img/py2neo_200.svg').default,
     description: (
       <>
-        Graphio is a Python library for bulk loading data to Neo4j. Graphio collects multiple sets of nodes and relationships and loads them to Neo4j. A common example is parsing a set of Excel files to create a Neo4j prototype. Graphio only loads data, it is not meant for querying Neo4j and returning data.
+        Graphio is a Python library for bulk loading data to Neo4j. Graphio collects multiple sets of nodes and relationships and loads them to Neo4j. 
       </>
     ),
   },
   {
-    title: 'Community Projects',
+    title: 'community projects',
     link: '/docs/community/projects',
     Svg: require('../../static/img/py2neo_200.svg').default,
     description: (
@@ -65,19 +65,14 @@ const FeatureList = [
   },
 ];
 
-function Feature({Svg, title,link, description}) {
+function Feature({title,link, description}) {
   return (
       <div className={clsx('col col--4')}>
-        <div className="text--center">
-        <a href={link}>
-          <Svg className={styles.featureSvg} alt={title} />
-        </a>
-        </div>
         <div className="text--center padding-horiz--md">
-        <a href={link}>
-          <h3>{title}</h3>
-          <p>{description}</p>
-        </a>
+          <a href={link}>
+            <h1>{title}</h1>
+            <p>{description}</p>
+          </a>
         </div>
       </div>
   );
