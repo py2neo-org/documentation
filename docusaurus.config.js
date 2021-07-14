@@ -34,7 +34,7 @@ module.exports = {
         },
         /** {to: '/blog', label: 'Blog', position: 'left'},*/
         {
-          href: 'https://github.com/py2neo-org/py2neo',
+          href: 'https://github.com/py2neo-org',
           label: 'GitHub',
           position: 'right',
         },
