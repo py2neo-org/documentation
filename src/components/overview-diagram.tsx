@@ -11,6 +11,14 @@ const OverviewDiagram: FunctionComponent = () => <aside>
     proxy([proxy2neo])-->|connects via proxy|Neo
     ipy([ipy2neo])-->|commandline|py2
     grolt([grolt])-->|server manager|Neo
+    %%===STYLES===%%
+    classDef default classFill fill:#4a94c6;
+    %% ===LINKS===%%
+    click py2 "/docs/py2neo"
+    click graphio "/docs/graphio"
+    click proxy "/docs/proxy2neo"
+    click ipy "/docs/ipy2neo"
+    click grolt "/docs/grolt"
     `}/>
 
 
