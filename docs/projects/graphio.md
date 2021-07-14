@@ -1,12 +1,16 @@
 ---
 id: graphio
 title: Graphio
-sidebar_position: 2
+sidebar_position: 1
 slug: /graphio
 ---
-import Docs from '../full-documentation.md';
+import Docs from '../components/full-documentation.md';
+import Repo from '../components/github-graphio.md';
+
+[![image](https://img.shields.io/pypi/v/graphio)](https://pypi.org/project/graphio)
 
 <Docs />
+<Repo />
 
 Graphio is a Python library for bulk loading data to Neo4j. Graphio collects
 multiple sets of nodes and relationships and loads them to Neo4j. A common example is parsing a set of Excel files
@@ -17,12 +21,6 @@ and relationships with similiar properties. Graphio can load these data sets to 
 
 Graphio uses py2neo in several places. Part of the bulk data loading logic developed for graphio was merged into py2neo.
 While py2neo is a comprehensive Neo4j library including object-graph mapping, graphio is made to quickly build a Neo4j database from existing data sets.
-
-
-## Version
-
-[![image](https://img.shields.io/pypi/v/graphio)](https://pypi.org/project/graphio)
-
 
 ## Installation
 

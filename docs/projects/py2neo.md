@@ -1,12 +1,17 @@
 ---
 id: py2neo
 title: Py2neo
-sidebar_position: 1
+sidebar_position: 5
 slug: /py2neo
 ---
-import Docs from '../full-documentation.md';
+import Docs from '../components/full-documentation.md';
+import Repo from '../components/github-py2neo.md';
+
+[![image](https://img.shields.io/pypi/v/py2neo.svg)](https://pypi.python.org/pypi/py2neo)
+
 
 <Docs />
+<Repo />
 
 Py2neo is a client library and toolkit for working with Neo4j from within Python applications and from the command line. The library supports both Bolt and HTTP and provides a high level API, an OGM, admin tools, an interactive console, a Cypher lexer for Pygments, and many other bells and whistles.
 
