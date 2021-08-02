@@ -5,7 +5,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 module.exports = {
   title: 'Py2neo',
   tagline: 'Where python meets Neo4j',
-  url: 'https://py2neo.org',
+  url: 'https://beta.py2neo.org',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
