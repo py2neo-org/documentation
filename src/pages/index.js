@@ -12,7 +12,7 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <img src="/static/img/py2neo-2021.291x50.png"></img>
+        <img src="/img/py2neo-2021.291x50.png"></img>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
       </div>
     </header>
